@@ -35,6 +35,24 @@ body {
 	display: table;
 }
 
+.clearfix{
+	background-color: rgb(100, 184, 241);
+	border-radius: 21px;
+
+}
+
+.clearfix .doc{
+	color: beige;
+}
+
+.clearfix .doc .title{
+	font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
 .clearfix:after {
 	clear: both;
 }
